@@ -1,0 +1,19 @@
+{
+  "name": "server-node",
+  "version": "1.0.0",
+  "description": "``` npm init npm install express axios cors npm install --save-dev nodemon # Add: \"scripts\": { \"start\": \"nodemon index.js\" }, echo node_modules/ > .gitignore touch index.js # Add the code npm run start ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Adam La Morre",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
